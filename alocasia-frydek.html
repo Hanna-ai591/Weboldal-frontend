@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="menü">
+            <div class="vonalak" id="von">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        
+            <a href="index.html"><img src="/img/Icon.png" alt="logo" width="65px" id="logo" ></a>
+            <ul class="menupontok" id="pontok">
+               
+                <li> <div><a href="szobanöv.html">Szobanövények</a></li></div>
+                <li> <div><a href="index.html">Most érkezett</a></li> </div><!-- home page -->
+                <li> <div><a href="kiegészítők.html">Kiegészítők</a></li></div>
+               
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="back-arrow"><a href="szobanöv.html"><img src="/images/back-arrow.png" alt="back-arrow" width="25px"></a></div>
+        <div class="info">
+            <div class="pic">
+                <img src="/images/Alocasia 'Frydek'.webp" alt="Alocasia Frydek" width="450px">
+            </div>
+            <div class="szöveg">
+                <div>
+                   <h1>Alocasia Frydek</h1>
+                </div>
+                <div class="leírás">
+                    <p>Alocasia micholitziana 'Frydek'.  Délkelet-Ázsiában őshonos levelei jellegzetes fehér erezetűek és bársonyos szerkezetűek.  Gyakran ellenőrizze a levelek alsó részét, hogy nincs-e rajta kártevő.</p>
+                    <p>Elérhetőség, 12 db készleten</p>
+                
+                    <p>Méretek:</p>
+                    <ul>
+                        <li> 12 cm - 4.000 Ft</li>
+                        <li> 35 cm - 11.000 Ft</li>
+                    </ul>
+                    <p>Igényei:</p>
+                    <ul>
+                        <li>Fény: világos, közvetett</li>
+                        <li>Talaj: jól vízelvezető</li>
+                        <li>Víz: tartsa enyhén nedvesen, mérsékelt páratartalom mellett</li>
+                    </ul>
+
+                </div>
+            </div>
+    </div>
+    <hr>
+    <form>
+        <h2>Vélemény</h2>
+        <div>
+            <label for="nev">Név*</label> <br>
+            <input type="text" class="nev" name="nev" required>
+        </div>
+        <div>
+            <label for="mail">Email*</label> <br>
+            <input type="email" class="mail" name="mail" required>
+        </div>
+        <div>
+            <label for="comment">Komment</label> <br>
+            <textarea name="comment" class="comment" ></textarea required> 
+        </div>
+        <div>
+            <input type="submit" value="Küldés" class="kuldes">
+            <input type="reset" name="alaphelyzet" class="reset"> 
+    
+        </div>
+       
+    </form>
+   
+    </main>
+    <footer>
+        <div class="gft">
+             <ul > 
+                <p>Nyitvatartás</p>
+                <li>Hétfő: 8:00 - 20:00</li>
+                <li>Kedd: 8:00 - 21:00</li>
+                <li>Szerda: 8:00 - 20:00</li>
+                <li>Csütörtök: 8:00 - 21:00</li>
+                <li>Péntek: 9:00 - 19:00</li>
+                <li>Szombat: 9:00 - 18:00</li>
+                <li>Vasárnap: 10:00 - 16:00</li>
+
+            </ul>
+            <ul> 
+                <p>Kapcsolat</p>
+                <li><a href="tel:+" class="hivatkozások">Telefon</a></li>
+                <li><a href="mailto:valaki@valami.hu" class="hivatkozások">E-mail</a></li>
+                <li><a href="#">Instagram</a></li>
+
+            </ul>
+            <ul> 
+                <p>Információ</p>
+                <li><a href="https://www.google.com/maps?q=location+name+or+address" class="hivatkozások">Boltunk</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
