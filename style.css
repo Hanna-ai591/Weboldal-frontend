@@ -40,7 +40,7 @@ main{
     text-decoration: none;
     color: #d2d4c8;
 }
-#logo {
+.logo {
     position: absolute;
     top: 7px;
     left: 10px;
