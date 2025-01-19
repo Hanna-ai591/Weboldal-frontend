@@ -58,6 +58,7 @@ main{
 .pic{
   flex: 1;
   max-width: 550px;
+  min-width: 205px;
 }
 .pic img {
     width: 100%;
@@ -238,7 +239,7 @@ header a {
 .product img {
   width: 100%;
   max-width: 300px;
-  min-width: 200px;
+  min-width: 90%;
 }
 
 .product:hover {
@@ -252,7 +253,7 @@ header a {
        
     }
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 500px){
 
     .info {
         flex-direction: column;
@@ -261,6 +262,7 @@ header a {
 
     .pic {
         margin: 0 auto; 
+        min-width: 140px;
     }
     .szöveg h1 {
         font-size: 10vw;
