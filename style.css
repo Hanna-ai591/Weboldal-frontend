@@ -238,6 +238,7 @@ header a {
 .product img {
   width: 100%;
   max-width: 300px;
+  min-width: 200px;
 }
 
 .product:hover {
@@ -251,29 +252,6 @@ header a {
        
     }
 }
-@media screen and (max-width: 400px) {
-    .info {
-        flex-direction: column;
-        text-align: center; 
-    }
-
-    .pic {
-        margin: 0 auto; 
-    }
-    .szöveg h1 {
-        font-size: 10vw;
-    }
-    .leírás{
-        margin-top: 30px;
-    }
-    .leírás li{
-        margin: 8px 0;
-        margin-left: 0;
-    }
-
-}
-
-
 
 @media screen and (max-width: 570px){
     .vonalak{
@@ -300,6 +278,24 @@ header a {
         top: 5px;
         left: 45%;
         transform: translateX(-50%);
+    }
+    .info {
+        flex-direction: column;
+        text-align: center; 
+    }
+
+    .pic {
+        margin: 0 auto; 
+    }
+    .szöveg h1 {
+        font-size: 10vw;
+    }
+    .leírás{
+        margin-top: 30px;
+    }
+    .leírás li{
+        margin: 8px 0;
+        margin-left: 0;
     }
     
 }
