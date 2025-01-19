@@ -276,9 +276,7 @@ header a {
 
 
 @media screen and (max-width: 570px){
-    .vonalak{
-        display: flex;
-    }
+
     .menupontok{
         display: none;
         flex-direction: column;
@@ -291,13 +289,16 @@ header a {
         background-color: #5e6c54;
         border-radius: 2px;
     }
+    .vonalak{
+        display: flex;
+    }
 
 
 
     .menupontok.show {
         display:flex;
     } 
-    #logo{
+    .logo{
         position: absolute;
         top: 5px;
         left: 45%;
