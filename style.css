@@ -103,7 +103,6 @@ main{
 form{
     margin-left: 50px;
     max-width: 100%;
-    margin-right: 50px;
 }
 label{
     color: #45523c;
@@ -382,5 +381,9 @@ header a {
     form h2{
         font-size: 8vw;
     }
+   form label{
+        margin-left: 25px;
+        margin-right: 25px;
+   }
 }
  
