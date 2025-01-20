@@ -103,6 +103,7 @@ main{
 form{
     margin-left: 50px;
     max-width: 100%;
+    margin-right: 50px;
 }
 label{
     color: #45523c;
